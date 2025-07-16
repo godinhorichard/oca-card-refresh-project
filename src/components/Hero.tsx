@@ -15,12 +15,12 @@ const Hero = () => {
       </div>
       
       {/* Content */}
-      <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
-        <div className="text-center text-white">
+      <div className="relative container mx-auto px-4 h-full flex items-end pb-8">
+        <div className="text-white">
           <img
             src={ocaPlanesLogo}
             alt="OCA Planes"
-            className="mx-auto mb-4 h-16"
+            className="h-16 md:h-20"
           />
         </div>
       </div>

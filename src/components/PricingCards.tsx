@@ -61,10 +61,10 @@ const PricingCards = () => {
           {plans.map((plan) => (
             <Card key={plan.id} className={`relative ${plan.colorClass} border-t-4 shadow-lg hover:shadow-xl transition-shadow duration-300`}>
               <CardHeader className="text-center pb-4">
-                <CardTitle className="text-xl font-bold text-gray-900">
+                <CardTitle className="text-2xl font-bold text-gray-900 mb-2">
                   {plan.name}
                 </CardTitle>
-                <CardDescription className="text-primary font-medium">
+                <CardDescription className="text-gray-600 font-normal text-base">
                   {plan.description}
                 </CardDescription>
               </CardHeader>
@@ -79,13 +79,14 @@ const PricingCards = () => {
                   ))}
                 </div>
                 
-                <Button 
-                  variant={plan.variant} 
-                  className="w-full font-semibold"
-                  size="lg"
-                >
-                  Conocer más
-                </Button>
+                <div className="flex justify-center">
+                  <button className="text-primary font-medium hover:text-primary/80 transition-colors duration-200 flex items-center space-x-1">
+                    <span>Conocer más</span>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
+                </div>
               </CardContent>
             </Card>
           ))}
