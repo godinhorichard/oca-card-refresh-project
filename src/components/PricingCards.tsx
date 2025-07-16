@@ -60,11 +60,11 @@ const PricingCards = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {plans.map((plan) => (
             <Card key={plan.id} className={`relative ${plan.colorClass} border-t-4 shadow-lg hover:shadow-xl transition-shadow duration-300`}>
-              <CardHeader className="text-center pb-4">
-                <CardTitle className="text-2xl font-bold text-gray-900 mb-2">
+              <CardHeader className="text-left pb-4">
+                <CardTitle className="text-xl font-bold text-gray-900 mb-2">
                   {plan.name}
                 </CardTitle>
-                <CardDescription className="text-gray-600 font-normal text-base">
+                <CardDescription className="text-primary font-medium text-base">
                   {plan.description}
                 </CardDescription>
               </CardHeader>
@@ -79,7 +79,7 @@ const PricingCards = () => {
                   ))}
                 </div>
                 
-                <div className="flex justify-center">
+                <div className="text-left">
                   <button className="text-primary font-medium hover:text-primary/80 transition-colors duration-200 flex items-center space-x-1">
                     <span>Conocer más</span>
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
