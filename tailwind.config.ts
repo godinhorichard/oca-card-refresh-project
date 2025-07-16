@@ -61,6 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'plan-basic': {
+					DEFAULT: 'hsl(var(--plan-basic))',
+					foreground: 'hsl(var(--plan-basic-foreground))'
+				},
+				'plan-advanced': {
+					DEFAULT: 'hsl(var(--plan-advanced))',
+					foreground: 'hsl(var(--plan-advanced-foreground))'
+				},
+				'plan-total': {
+					DEFAULT: 'hsl(var(--plan-total))',
+					foreground: 'hsl(var(--plan-total-foreground))'
 				}
 			},
 			borderRadius: {
