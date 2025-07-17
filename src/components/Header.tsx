@@ -1,4 +1,4 @@
-import ocaLogo from "@/assets/oca-logo.png";
+import ocaLogo from "@/assets/oca-logo-official.png";
 
 const Header = () => {
   return (
