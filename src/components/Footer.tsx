@@ -12,9 +12,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Productos</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-blue-100 hover:text-white">Tarjetas de crédito</a></li>
-              <li><a href="#" className="text-blue-100 hover:text-white">Cuenta OCA Blue</a></li>
-              <li><a href="#" className="text-blue-100 hover:text-white">Préstamos</a></li>
+              <li><a href="https://oca.uy/tarjeta-de-credito/" className="text-blue-100 hover:text-white">Tarjetas de crédito</a></li>
+              <li><a href="https://ocablue.oca.com.uy/" className="text-blue-100 hover:text-white">Cuenta OCA Blue</a></li>
+              <li><a href="https://oca.uy/prestamos/" className="text-blue-100 hover:text-white">Préstamos</a></li>
             </ul>
           </div>
           
@@ -22,9 +22,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Servicios</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-blue-100 hover:text-white">Atención al cliente</a></li>
-              <li><a href="#" className="text-blue-100 hover:text-white">Seguridad digital</a></li>
-              <li><a href="#" className="text-blue-100 hover:text-white">Comercios</a></li>
+              <li><a href="https://oca.uy/atencion-al-cliente/" className="text-blue-100 hover:text-white">Atención al cliente</a></li>
+              <li><a href="https://oca.uy/ciber-seguridad/" className="text-blue-100 hover:text-white">Seguridad digital</a></li>
+              <li><a href="https://oca.uy/comercios/" className="text-blue-100 hover:text-white">Comercios</a></li>
             </ul>
           </div>
           

@@ -12,19 +12,22 @@ const Header = () => {
           
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#" className="text-gray-700 hover:text-primary">Productos</a>
-            <a href="#" className="text-gray-700 hover:text-primary">Beneficios</a>
-            <a href="#" className="text-gray-700 hover:text-primary">Metraje</a>
-            <a href="#" className="text-gray-700 hover:text-primary">Servicios</a>
-            <a href="#" className="text-gray-700 hover:text-primary">Seguridad digital</a>
-            <a href="#" className="text-gray-700 hover:text-primary">Atención al cliente</a>
-            <a href="#" className="text-gray-700 hover:text-primary">Comercios</a>
+            <a href="https://oca.uy/productos/" className="text-gray-700 hover:text-primary text-sm font-medium">Productos</a>
+            <a href="https://oca.uy/beneficios/" className="text-gray-700 hover:text-primary text-sm font-medium">Beneficios</a>
+            <a href="https://oca.uy/metraje/" className="text-gray-700 hover:text-primary text-sm font-medium">Metraje</a>
+            <a href="https://oca.uy/servicios/" className="text-gray-700 hover:text-primary text-sm font-medium">Servicios</a>
+            <a href="https://oca.uy/ciber-seguridad/" className="text-gray-700 hover:text-primary text-sm font-medium">Seguridad digital</a>
+            <a href="https://oca.uy/atencion-al-cliente/" className="text-gray-700 hover:text-primary text-sm font-medium">Atención al cliente</a>
+            <a href="https://oca.uy/comercios/" className="text-gray-700 hover:text-primary text-sm font-medium">Comercios</a>
           </nav>
           
           {/* CTA Button */}
-          <Button variant="default" size="sm">
+          <a 
+            href="https://acceso.oca.com.uy/"
+            className="bg-primary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary/90 transition-colors"
+          >
             Ingresar a Mi Cuenta
-          </Button>
+          </a>
         </div>
       </div>
     </header>
