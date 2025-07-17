@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import ocaLogo from "@/assets/oca-logo.png";
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-primary">OCA</div>
+            <img src={ocaLogo} alt="OCA" className="h-8" />
           </div>
           
           {/* Navigation */}
