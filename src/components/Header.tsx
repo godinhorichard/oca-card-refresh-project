@@ -23,7 +23,7 @@ const Header = () => {
           
           {/* CTA Button */}
           <a 
-            href="https://acceso.oca.com.uy/"
+            href="https://acceso.oca.uy/"
             className="bg-primary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary/90 transition-colors"
           >
             Ingresar a Mi Cuenta
