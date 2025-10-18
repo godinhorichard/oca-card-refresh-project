@@ -23,7 +23,9 @@ const Header = () => {
           
           {/* CTA Button */}
           <a 
-            href="https://acceso.oca.uy/"
+            href="https://c6.com.br"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-primary text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-primary/90 transition-colors"
           >
             Ingresar a Mi Cuenta
